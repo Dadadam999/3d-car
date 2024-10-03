@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>3D Гонка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Canvas для отображения игры -->
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Блок UI для отображения жизней и скорости -->
+    <div id="ui">
+        <div id="lives">Жизни: 3</div>
+        <div id="speed">Скорость: 0</div>
+    </div>
+
+    <!-- Блок управления -->
+    <div id="controls">
+        <div id="leftButton" class="control-button"></div>
+        <div id="rightButton" class="control-button"></div>
+    </div>
+
+    <!-- Подключаем главный скрипт с type="module" -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
